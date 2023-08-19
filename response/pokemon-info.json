@@ -1,7 +1,7 @@
 {
   "abilities": "#array",
   "base_experience": "#number",
-  "forms": "#array",
+  "forms": "#[] forms",
   "game_indices": "#array",
   "height": "#number",
   "held_items": "#array",
@@ -12,7 +12,10 @@
   "name": "#string",
   "order": "#number",
   "past_types": "#array",
-  "species": "#object",
+  "species": {
+    "name": "#string",
+    "url": "#string"
+  },
   "sprites": "#object",
   "stats": "#array",
   "types": "#array",
